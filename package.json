@@ -1,0 +1,15 @@
+{
+  "name": "SASS-Project",
+  "version": "0.0.0",
+  "description": "Global Campus Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "Claire Crawford (Sherrie Teague)",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
