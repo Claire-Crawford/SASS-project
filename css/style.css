@@ -1,30 +1,42 @@
 /* css.style derived from main.scss by Claire Crawford */
 /* _spacing.scss by Claire Crawford */
-/* color-theme/summer.scss by Claire Crawford */
+/* color-theme/autumn.scss by Claire Crawford */
 body {
   background: #ccc; }
 
 header {
-  background: #61022e;
-  color: #ced203;
+  background: #DBA72E;
+  color: #B0703C;
   padding: 30px;
   margin: 10px 0; }
 
 content {
-  background: olive;
-  color: #efcef1;
+  background: #997C67;
+  color: grey;
   padding: 30px;
   margin: 10px 0; }
 
+#userInp {
+  background: #997C67;
+  color: #755330; }
+
+#userOut {
+  background: #DBA72E;
+  color: #B0703C; }
+
+.card-body {
+  color: #DBA72E;
+  font-weight: bold; }
+
 footer {
-  background: #61022e;
-  color: #ced203;
+  background: #DBA72E;
+  color: #B0703C;
   padding: 30px;
   margin: 10px 0; }
 
 .btn {
   padding: 10px 20px; }
   .btn.primary {
-    background: #ced203; }
+    background: #B0703C; }
   .btn.secondary {
-    background: #efcef1; }
+    background: #755330; }

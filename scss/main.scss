@@ -1,7 +1,7 @@
 // main.scss by Claire Crawford (hidden comment) 
 /* css.style derived from main.scss by Claire Crawford */
 @import "_spacing.scss";
-@import "color-theme/_summer.scss";
+@import "color-theme/_autumn.scss";
 
 
 
@@ -9,7 +9,7 @@ body {
     background: #ccc;
 }
 
-header {
+header{
     background: $color-primary-background;
     color: $color-primary;
     @include spacing;
@@ -17,8 +17,23 @@ header {
 
 content {
     background: $color-secondary-background;
-    color: $color-secondary;
+    color: grey;
     @include spacing;
+}
+
+#userInp {
+    background: $color-secondary-background;
+    color: $color-secondary;
+}
+
+#userOut{
+    background: $color-primary-background;
+    color: $color-primary;
+}
+
+.card-body {
+    color: $color-primary-background;
+    font-weight:bold;
 }
 
 footer {
