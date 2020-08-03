@@ -1,31 +1,28 @@
 // main.scss by Claire Crawford (hidden comment) 
 /* css.style derived from main.scss by Claire Crawford */
-@mixin spacing {
-    padding: 10px;
-    margin: 10px 0;
-}
+@import "_spacing.scss";
+@import "color-theme/_summer.scss";
 
-$color-primary: #336699;
-$color-secondary: #F1FFC4;
-$color-cta: pink;
+
 
 body {
     background: #ccc;
 }
 
-.header {
-    background: maroon;
+header {
+    background: $color-primary-background;
     color: $color-primary;
     @include spacing;
 }
 
-.content {
-    background: turquoise;
+content {
+    background: $color-secondary-background;
+    color: $color-secondary;
     @include spacing;
 }
 
-.footer {
-    background: lime;
+footer {
+    background: $color-primary-background;
     color: $color-primary;
     @include spacing;
 }

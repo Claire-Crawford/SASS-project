@@ -1,0 +1,30 @@
+/* css.style derived from main.scss by Claire Crawford */
+/* _spacing.scss by Claire Crawford */
+/* color-theme/summer.scss by Claire Crawford */
+body {
+  background: #ccc; }
+
+header {
+  background: #61022e;
+  color: #ced203;
+  padding: 30px;
+  margin: 10px 0; }
+
+content {
+  background: olive;
+  color: #efcef1;
+  padding: 30px;
+  margin: 10px 0; }
+
+footer {
+  background: #61022e;
+  color: #ced203;
+  padding: 30px;
+  margin: 10px 0; }
+
+.btn {
+  padding: 10px 20px; }
+  .btn.primary {
+    background: #ced203; }
+  .btn.secondary {
+    background: #efcef1; }
